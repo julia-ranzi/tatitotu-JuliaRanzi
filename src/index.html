@@ -7,10 +7,13 @@
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container-fluide">
+      <img src="/img/logo-tatitotu.png" alt="logo-tatitotu" />
+    </div>
+    <div class="container">
       <div class="row">
-        <div class="col-12">
-          <img src="/img/logo-tatitotu.png" alt="logo-tatitotu" />
+      </div>
+        <div class="col-11 offset-1">
           <nav class="nav-container">
             <a class="nav-a">5p</a>
             <a class="nav-a">6p</a>
@@ -38,34 +41,33 @@
             conjugaison<br />tatitotu
           </h1>
         </div>
-        <div class="col-5">
-          <input type="text" placeholder="code à 8 caractères" />
-          <input type="button" value="charger mon défi" />
+        <div class="col-5 l-chargerdefi">
+          <input type="text" placeholder="code à 8 caractères" class="textfield"/>
+          <input type="button" value="charger mon défi" class="buttons"/>
         </div>
       </div>
-      <div class="row">
-        <div class="col-3 box">
+      <div class="row l-box-container">
+        <div class="col-3 box box-buttons">
           <h2 class="titles-h2">mes verbes</h2>
-          <ul class="tags-input">
-            <li class="tags">être</li>
-            <li class="tags">avoir</li>
-            <li class="tags">faire</li>
-          </ul>
+          <input type="textfield" placeholder="ajoutez un verbe" class="textfield"></input>
+          <button class="buttons">être</button>
+          <button class="buttons">avoir</button>
+          <button class="buttons">faire</button>
         </div>
         <div class="col-5 box">
           <h2 class="titles-h2">mes temps</h2>
-          <h3>indicatif</h3>
-          <h3>impératif</h3>
-          <h3>subjonctif</h3>
-          <h3>conditionnel</h3>
-          <h3>participe</h3>
-          <h3>gerondif</h3>
+          <h3 class="titles-h3">indicatif</h3>
+          <h3 class="titles-h3">impératif</h3>
+          <h3 class="titles-h3">subjonctif</h3>
+          <h3 class="titles-h3">conditionnel</h3>
+          <h3 class="titles-h3">participe</h3>
+          <h3 class="titles-h3">gerondif</h3>
         </div>
         <div class="col-4 box">
           <h2 class="titles-h2">options</h2>
-          <h3>nombre de questions</h3>
-          <h3>type</h3>
-          <h3>options d'impression</h3>
+          <h3 class="titles-h3-options">nombre de questions</h3>
+          <h3 class="titles-h3-options">type</h3>
+          <h3 class="titles-h3-options">options d'impression</h3>
           <button class="buttons">sauvergarder mon défi</button>
           <button class="buttons">exercer</button>
         </div>
