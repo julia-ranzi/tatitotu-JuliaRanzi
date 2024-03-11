@@ -17,4 +17,24 @@
   line-height: normal;
   text-transform: uppercase;
   text-align: center;
+  padding-bottom: 15px;
+}
+
+.titles-h3 {
+  color: var(--subtitles-temps, #000);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.titles-h3-options {
+  color: var(--text, #000);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
