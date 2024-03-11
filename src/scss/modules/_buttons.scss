@@ -1,0 +1,19 @@
+.buttons {
+  display: flex;
+  width: 312px;
+  height: 57px;
+  padding: 4px 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 28px;
+  background: #034ee5;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
