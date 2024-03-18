@@ -225,9 +225,25 @@
         </div>
         <div class="col-4 box">
           <h2 class="titles-h2">options</h2>
-          <h3 class="titles-h3-options">nombre de questions</h3>
+          <label>
+            nombre de questions
+            <select class="button questions">
+              <option value="number">5</option>
+              <option value="number">10</option>
+              <option value="number">20</option>
+              <option value="number">30</option>
+              <option value="number">40</option>
+              <option value="number">50</option>
+            </select>
+          </label>
           <h3 class="titles-h3-options">type</h3>
-          <h3 class="titles-h3-options">options d'impression</h3>
+          <label class="switch">
+            <input type="checkbox" />
+            options d'impression
+            <div class="switch-wrapper">
+              <div class="switch-inner"></div>
+            </div>
+          </label>  
           <button class="buttons">sauvegarder mon défi</button>
           <button class="buttons">exercer</button>
         </div>

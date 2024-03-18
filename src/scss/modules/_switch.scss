@@ -8,14 +8,14 @@
 }
 
 .switch-inner {
-  width: 16px;
-  height: 16px;
+  width: 17px;
+  height: 17px;
   border-radius: 8px;
   background: #fff;
 }
 
 input:checked + .switch-wrapper .switch-inner {
-  margin-left: 20px;
+  margin-left: 18px;
 }
 
 input:checked + .switch-wrapper {
@@ -39,4 +39,5 @@ input:checked + .switch-wrapper {
   display: flex;
   flex-wrap: wrap;
   gap: 20px 0px;
+  margin: 22px;
 }
