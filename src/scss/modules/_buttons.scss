@@ -23,3 +23,16 @@
 .button-defi {
   width: 50%;
 }
+
+.button-type {
+  border: 1px solid #034ee5;
+  border-radius: 28px;
+  background-color: #f1f6ff;
+  padding: 5px 25px;
+  color: #034ee5;
+}
+
+.button-type:hover {
+  background-color: #034ee5;
+  color: #fff;
+}
