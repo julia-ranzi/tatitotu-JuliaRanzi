@@ -17,3 +17,10 @@
   flex-direction: row;
   flex-wrap: nowrap;
 }
+
+.l-background {
+  background-image: url(../../img/marker-around.svg);
+  background-repeat: no-repeat;
+  background-position: 90% 5%;
+  background-size: 55%;
+}

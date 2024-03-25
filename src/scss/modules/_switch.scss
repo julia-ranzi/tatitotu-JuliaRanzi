@@ -27,12 +27,14 @@ input:checked + .switch-wrapper {
 }
 
 .switch {
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .switch-list {

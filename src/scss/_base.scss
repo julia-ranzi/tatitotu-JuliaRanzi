@@ -21,6 +21,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   font-family: "Roboto", sans-serif;
+  background-image: url(../../img/smiley.svg);
+  background-repeat: no-repeat;
+  background-size: 42%;
+  background-position: 0% 100%;
 }
 
 a {
@@ -51,6 +55,6 @@ video {
   font-weight: 300;
 }
 
-/* ====================================
-// base rules
-// ==================================== */
+.tout-supprimer:hover {
+  text-decoration: underline;
+}
