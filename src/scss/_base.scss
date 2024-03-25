@@ -20,9 +20,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-
-  font-size: 1rem;
-  line-height: 1.25;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -36,10 +34,23 @@ video {
   vertical-align: middle;
 }
 
+.logo {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.tout-supprimer {
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #f00;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+  font-weight: 300;
+}
+
 /* ====================================
 // base rules
 // ==================================== */
-
-h1 {
-  margin: 140px 20px;
-}
