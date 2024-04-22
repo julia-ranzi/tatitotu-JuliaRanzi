@@ -20,8 +20,20 @@
   margin: 4px;
 }
 
+.buttons:hover {
+  background-color: #fff;
+  border: 1px solid #034ee5;
+  color: #034ee5;
+}
+
 .button-defi {
   width: 50%;
+}
+
+.button-defi:hover {
+  background-color: #fff;
+  border: 1px solid #034ee5;
+  color: #034ee5;
 }
 
 .button-type {
