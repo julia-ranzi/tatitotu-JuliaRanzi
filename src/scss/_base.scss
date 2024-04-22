@@ -58,3 +58,18 @@ video {
 .tout-supprimer:hover {
   text-decoration: underline;
 }
+
+.cocher {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.cocher a {
+  color: #034ee5;
+  text-decoration: none;
+}
+
+.cocher a:hover {
+  text-decoration: underline;
+}
